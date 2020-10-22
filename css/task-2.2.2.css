@@ -1,0 +1,16 @@
+img{
+    max-width:30px;
+}
+
+h1
+    {
+    color: blueviolet;
+    background-image: -moz-linear-gradient();
+    
+}
+
+li
+    {outline-color: cornflowerblue;
+    background-color: darkgreen;
+
+}
