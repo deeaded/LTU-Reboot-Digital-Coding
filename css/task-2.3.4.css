@@ -1,5 +1,5 @@
 header,main,fooer{
-    border: 
-    margin:
-    padding
+    border: 1px solid green;
+    margin: 10px auto;
+    padding:
 }
