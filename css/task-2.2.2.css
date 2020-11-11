@@ -1,18 +1,18 @@
-img {
+img{
     max-width:300px;
 }
 
-h1 {
+h1{
     color: blueviolet;
     background-image: -moz-linear-gradient();
     
 }
 
-li {outline-color: cornflowerblue;
+li{outline-color: cornflowerblue;
     background-color: darkgreen;
 
 }
-h3 
+h3
 { 
     background-color: darkviolet;
     color: rgb(105, 105, 105);
