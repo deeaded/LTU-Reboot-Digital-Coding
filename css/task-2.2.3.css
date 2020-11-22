@@ -24,6 +24,12 @@ h3
     font-family: Arial, Helvetica, sans-serif;
 }
 
+h4
+{ 
+    background-color: rgb(75, 98, 167);
+    color: rgb(138, 63, 63);
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
 
 p
 {font-family: 'Times New Roman', Times, serif;
