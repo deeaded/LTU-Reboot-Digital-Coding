@@ -8,9 +8,9 @@ img {
   
  .imageContainer .imageCaption{
   position:absolute;
-  margin:0;
-  background:white;
-  border:1px solid black;
+  margin:5px;
+  background:rgb(175, 26, 96);
+  border:10px solid rgb(6, 133, 84);
   top:10px;
   left:10px;
   padding:10px;
@@ -37,7 +37,7 @@ img {
  }
 
  main{
-  max-width:calc(75% - 80px);
+  max-width:calc(90% - 80px);
   float:left;
  }
 

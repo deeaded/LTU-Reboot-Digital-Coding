@@ -1,0 +1,40 @@
+img {
+  max-width:200px;
+ }
+  
+ .imageContainer{
+  position:relative;
+ }
+  
+ .imageContainer .imageCaption{
+  position:absolute;
+  margin:10;
+  background:rgb(57, 7, 196);
+  border:1px solid black;
+  top:20px;
+  left:15px;
+  padding:10px;
+ }
+
+ img {
+  max-width:500px;
+ }
+  
+ .imageContainer{
+  position:relative;
+ }
+  
+ main{
+  max-width:calc(90% - 80px);
+  float:left;
+ }
+
+ aside{
+  max-width: calc(25% - 80px);
+  float:left;
+  border-left:none;
+ }
+footer{
+  clear:both;
+}
+ 
