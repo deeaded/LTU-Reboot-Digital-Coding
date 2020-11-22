@@ -1,5 +1,6 @@
 header, main, footer{
-    border: 1px solid green;
+    border: 3px solid green;
     margin: 10px auto;
     padding: 10px;
 }
+header
