@@ -1,5 +1,5 @@
-header,main,fooer{
+header, main, footer{
     border: 1px solid green;
     margin: 10px auto;
-    padding:
+    padding: 10px;
 }
