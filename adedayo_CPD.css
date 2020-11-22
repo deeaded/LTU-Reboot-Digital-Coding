@@ -64,4 +64,20 @@ figure2 {
     padding:5px;
 }
 
+figure3 {
+
+  position: relative;
+  width: 200px;
+  }
+
+  figcaption4 {
+    position:absolute;
+    margin:px;
+    background:rgb(175, 26, 96);
+    border:5px solid rgb(6, 133, 84);
+    top:-50px;
+    left:10px;
+    padding:5px;
+}
+
 img{max-width: 400px;}
