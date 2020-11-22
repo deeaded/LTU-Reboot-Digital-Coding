@@ -22,7 +22,7 @@ img {
   background:white;
   border:1px solid black;
   top:10px;
-  left:10px;
+  left:250px;
   padding:10px;
  }
 
@@ -31,7 +31,7 @@ img {
   margin:10;
   background:rgb(223, 21, 223);
   border:15px solid rgb(119, 35, 168);
-  top:400px;
+  top:380px;
   left:10px;
   padding:5px;
  }
