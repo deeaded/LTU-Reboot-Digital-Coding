@@ -37,23 +37,16 @@ img {
  }
 
  main{
-   max-width: width 75%;
-   float:left;
- }
- aside{
-   max-width: width 25%;
-   float:left;
- }
- footer{
-   clear:both;
-   }
-
- .floatdivs{
-   float:left;
-   max-width: 33%;
-   height: 200px;
-   font-size: smaller;
- }
-
+  max-width:calc(75%);
+  float:left;
+}
+aside{
+  max-width: calc(25%);
+  float: left;
+  border-left: none;
+}
+footer{
+  clear:both;
+}
  
   
