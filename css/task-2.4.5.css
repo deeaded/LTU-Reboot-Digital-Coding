@@ -37,11 +37,11 @@ img {
  }
 
  main{
-  max-width:calc(75%);
+  max-width:75%;;
   float:left;
 }
 aside{
-  max-width: calc(25%);
+  max-width:25%;
   float: left;
   border-left: none;
 }
