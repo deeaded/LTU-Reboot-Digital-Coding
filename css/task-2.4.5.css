@@ -40,10 +40,11 @@ img {
   max-width:calc(75% - 80px);
   float:left;
  }
+
  aside{
   max-width: calc(25% - 80px);
-  float: left;
-  border-left: none;
+  float:left;
+  border-left:none;
  }
 footer{
   clear:both;
