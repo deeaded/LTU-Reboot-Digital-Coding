@@ -62,3 +62,15 @@ ol li em
 color: rgb(80, 4, 4);
 background-color: rgba(107, 173, 189, 0.705);
 }
+
+.orange {
+    background:orangered
+}
+
+li.orange {
+    background:rgb(0, 47, 255)
+}
+
+body#main_content ol li.orange{
+    background-color: peru;
+}
