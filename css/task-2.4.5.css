@@ -1,0 +1,50 @@
+img {
+  max-width:500px;
+ }
+  
+ .imageContainer{
+  position:relative;
+ }
+  
+ .imageContainer .imageCaption{
+  position:absolute;
+  margin:0;
+  background:white;
+  border:1px solid black;
+  top:10px;
+  left:10px;
+  padding:10px;
+ }
+
+ .imageContainer .imageCaptionSecond{
+  position:absolute;
+  margin:0;
+  background:white;
+  border:1px solid black;
+  top:10px;
+  left:250px;
+  padding:10px;
+ }
+
+ .imageContainer .imageCaptionThird{
+  position:absolute;
+  margin:10;
+  background:rgb(223, 21, 223);
+  border:15px solid rgb(119, 35, 168);
+  top:380px;
+  left:10px;
+  padding:5px;
+ }
+
+ main{
+   max-width: width 75%;
+   float: left;
+ }
+ aside{
+   max-width: width 25%;
+   float: left;
+ }
+ footer{
+   clear:both
+ }
+  
