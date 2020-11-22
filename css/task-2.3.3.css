@@ -1,6 +1,7 @@
 
 a:link {
   color: red;
+  font-size: 32px
 }
 
 a:visited {
@@ -9,6 +10,7 @@ a:visited {
 
 a:hover {
   color: hotpink;
+  font: smaller;
 }
 
 
