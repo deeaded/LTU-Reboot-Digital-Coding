@@ -37,16 +37,15 @@ img {
  }
 
  main{
-  max-width:75%;;
+  max-width:calc(75% - 80px);
   float:left;
-}
-aside{
-  max-width:25%;
+ }
+ aside{
+  max-width: calc(25% - 80px);
   float: left;
   border-left: none;
-}
+ }
 footer{
   clear:both;
 }
  
-  
