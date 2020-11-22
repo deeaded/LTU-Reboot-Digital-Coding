@@ -38,13 +38,22 @@ img {
 
  main{
    max-width: width 75%;
-   float: left;
+   float:left;
  }
  aside{
    max-width: width 25%;
-   float: left;
+   float:left;
  }
  footer{
-   clear:both
+   clear:both;
+   }
+
+ .floatdivs{
+   float:left;
+   max-width: 33%;
+   height: 200px;
+   font-size: smaller;
  }
+
+ 
   
