@@ -6,9 +6,62 @@ h1 {
 }
 h2{
   color:rgb(150, 13, 36)
+ 
 }
 p {
   color: rgb(68, 18, 109);
+  
+  
+}
+div{
+  width: auto;
+  color: rgb(68, 18, 109);
+  border: 3px solid rgb(230, 176, 226);
+  padding: 2px;
+  margin: 2px;
+}
+figure {
+  position: relative;
+  width: auto;
+  color: rgb(68, 18, 109);
+  border: 3px solid rgb(230, 176, 226);
+  padding: 2px;
+  margin: 2px;
+  }
+  
+  figcaption1 {
+    position:absolute;
+    margin:2px;
+    background:rgb(175, 26, 96);
+    border:5px solid rgb(6, 133, 84);
+    top:100px;
+    left:10px;
+    padding:5px;
+}
+
+figcaption2 {
+    position:absolute;
+    margin:2px;
+    background:rgb(175, 26, 96);
+    border:5px solid rgb(6, 133, 84);
+    top:320px;
+    left:100px;
+    padding:5px;
+}
+
+figure2 {
+  position: relative;
+  width: 200px;
+  }
+
+  figcaption3 {
+    position:absolute;
+    margin:2px;
+    background:rgb(175, 26, 96);
+    border:5px solid rgb(6, 133, 84);
+    top:-50px;
+    left:10px;
+    padding:5px;
 }
 
 img{max-width: 400px;}
