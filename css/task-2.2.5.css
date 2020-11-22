@@ -71,6 +71,12 @@ li.orange {
     background:rgb(0, 47, 255)
 }
 
+.violet {
+    background:#de34eb;
+    font-size: smaller;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
 body#main_content ol li.orange{
     background-color: peru;
 }
