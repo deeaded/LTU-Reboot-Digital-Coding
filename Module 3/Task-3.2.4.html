@@ -33,9 +33,13 @@ function wearACoat(temperature){
             }
             
             if(blnValidation){
-                if(temperature < 12){
+                if(temperature < 0){
+                    return 'Do not leave the house';
+                if(temperature < 10){
+                    return 'You need to wear a coat and a hat';
+                if(temperature < 15){
                     return 'You need to wear a coat';
-                }
+                
                 return 'You don\'t need to wear a coat';
             } else {
                 return;
