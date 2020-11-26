@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="../css/task-3.1.css" />
-    <title>Javascript 3.3.2</title>
+    <title>Javascript 3.3.3</title>
 
 </head>
 <body>
@@ -57,7 +57,22 @@ function Calculator(number1,number2,operator)
 var a = 15
 var b = 4
 
-var srtMessage = a + ' + ' + b + ' = ' + Calculator(a,b,' + ');
+var srtMessage = a + ' + ' + b + ' = ' + Calculator(a,b,'+');
+console.log(srtMessage);
+var srtMessage = a + ' - ' + b + ' = ' + Calculator(a,b,'-');
+console.log(srtMessage);
+var srtMessage = a + ' * ' + b + ' = ' + Calculator(a,b,'*');
+console.log(srtMessage);
+var srtMessage = a + ' / ' + b + ' = ' + Calculator(a,b,'/');
+console.log(srtMessage);
+var srtMessage = a + ' % ' + b + ' = ' + Calculator(a,b,'%');
+console.log(srtMessage);
+
+total = 300;
+percent = 25;
+percentageOfTotal = Calculator(percent,Calculator(total,100,'/'),'*');
+console.log(percentageOfTotal);
+
 
 
 </script>
