@@ -21,16 +21,47 @@ h2{
   border: 3px solid rgb(230, 176, 226);
   padding: 1px;
   margin: 2px;
-}
-/*
-figure {
   position: relative;
-  width: auto;
-  color: rgb(68, 18, 109);
-  border: 3px solid rgb(230, 176, 226);
+}
+
+im
+
+img{
+
+  float: right;
+  max-width: 400px;
+}
+
+.img1{
+
+ float: left;
+  width: 500px;
+  color:rgb(68, 18, 109);
   padding: 2px;
   margin: 2px;
-  }
+  border:5px solid rgb(6, 133, 84);
+
+}
+.img2{
+  width: 500px;
+  color:rgb(68, 18, 109);
+  padding: 2px;
+  margin: 2px;
+  border:5px solid rgb(6, 133, 84);
+
+}
+
+/*
+.img2{
+
+  position: relative;
+  left: 500px;
+  width: auto;
+  color: rgb(68, 18, 109);
+  padding: 2px;
+  margin: 2px;
+}*/
+
   
   figcaption1 {
     position:absolute;
@@ -82,5 +113,4 @@ figure3 {
     left:10px;
     padding:5px;
 }
-*/
 img{max-width: 400px;}
