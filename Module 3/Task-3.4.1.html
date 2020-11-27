@@ -28,12 +28,13 @@
    {
        var sum = multiplier * counter;
        var strMessage = counter + ' * ' + multiplier + ' = ' + sum + ' ';  
-       console.log (strMessage);
-       document.write (strMessage) }
+       console.log(strMessage);
+       document.write(strMessage+'<br />');
+    }
 
    for  (var multiplier = 1; multiplier <=12; multiplier++) //this is a nested loop, the loop inside gets executed first, then goes to the parent loop to take the next multiplier
          {console.log('Here is the' + ' ' + (multiplier) + ' ' + 'timetable');
-         document.write('Here is the' + ' ' + (multiplier) + ' ' + 'timetable')  
+         document.write('<br>' + 'Here is the' + ' ' + (multiplier) + ' ' + 'timetable' + '<br />');
 
    for (var counter = 1; counter <=12; counter++)
    {
