@@ -2,24 +2,27 @@ body {
   background-color: powderblue;
 }
 h1 {
-  color: blue;
+  width: 1200px;
+  color: rgb(102, 7, 82);
+  font-weight: bold;
+  text-align: centre;
 }
 h2{
-  color:rgb(150, 13, 36)
+  width: 1200px;
+  color:rgb(102, 7, 82);
+  text-decoration: underline;
  
 }
-p {
-  color: rgb(68, 18, 109);
-  
-  
-}
-div{
-  width: auto;
-  color: rgb(68, 18, 109);
+
+
+.daily_update {
+  color:rgb(68, 18, 109);
+  width: 1200px;
   border: 3px solid rgb(230, 176, 226);
-  padding: 2px;
+  padding: 1px;
   margin: 2px;
 }
+/*
 figure {
   position: relative;
   width: auto;
@@ -79,5 +82,5 @@ figure3 {
     left:10px;
     padding:5px;
 }
-
+*/
 img{max-width: 400px;}
