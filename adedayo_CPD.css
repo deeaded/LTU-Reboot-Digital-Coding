@@ -66,7 +66,7 @@ img{
   bottom: 80px;
   left: 60px;
   margin:2px;
-  background:rgb(197, 131, 162);
+  background:rgb(226, 113, 166);
   border:5px solid rgb(6, 133, 84);
   padding:5px;
 }
@@ -77,16 +77,37 @@ img{
   bottom: 80px;
   right: 400px;
   margin:2px;
-  background:rgb(197, 131, 162);
+  background:rgb(226, 113, 166);
   border:5px solid rgb(6, 133, 84);
   padding:5px;
 }
 
-  
+.caption3{
+  position:absolute;
+  width: 300px;
+  top: 210px;
+  left: 45px;
+  margin:2px;
+  background:rgb(226, 113, 166);
+  border:5px solid rgb(6, 133, 84);
+  padding:5px;
+}
+
+.caption4{
+    position:absolute;
+    width: 300px;
+    top: 210px;
+    left: 480px;
+    margin:2px;
+    background:rgb(226, 113, 166);
+    border:5px solid rgb(6, 133, 84);
+    padding:5px;
+
+
 figcaption1 {
     position:absolute;
     margin:2px;
-    background:rgb(175, 26, 96);
+    background:rgb(226, 113, 166);
     border:5px solid rgb(6, 133, 84);
     top:100px;
     left:10px;
@@ -96,7 +117,7 @@ figcaption1 {
 figcaption2 {
     position:absolute;
     margin:2px;
-    background:rgb(175, 26, 96);
+    background:rgb(226, 113, 166);
     border:5px solid rgb(6, 133, 84);
     top:320px;
     left:100px;
