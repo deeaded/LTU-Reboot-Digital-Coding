@@ -22,48 +22,68 @@ h2{
   padding: 10px;
   margin: 5px;
   position: relative;
-}
+  clear: both;
 
-im
+}
+.daily_update_multiple_images {
+  color:rgb(68, 18, 109);
+  width: 1200px;
+  border: 3px solid rgb(230, 176, 226);
+  padding: 10px;
+  margin: 5px;
+  position: relative;
+  clear: both;
+
+}
 
 img{
 
-  float: right;
+
   max-width: 400px;
 }
 
 .img1{
 
- float: left;
-  width: 500px;
-  color:rgb(68, 18, 109);
-  padding: 2px;
-  margin: 2px;
-  border:5px solid rgb(6, 133, 84);
+  height: 500px;
+  width: 400px;
+  padding: 4px;
+  margin: 5px;
 
 }
 .img2{
-  width: 500px;
-  color:rgb(68, 18, 109);
-  padding: 2px;
-  margin: 2px;
-  border:5px solid rgb(6, 133, 84);
+  
+  height: 500px;
+  width: 800px;
+  height: 500px;
+  padding: 5px;
+  margin: 5px;
 
 }
 
-/*
-.img2{
+.caption1{
+  position:absolute;
+  width: 300px;
+  bottom: 80px;
+  left: 60px;
+  margin:2px;
+  background:rgb(197, 131, 162);
+  border:5px solid rgb(6, 133, 84);
+  padding:5px;
+}
 
-  position: relative;
-  left: 500px;
-  width: auto;
-  color: rgb(68, 18, 109);
-  padding: 2px;
-  margin: 2px;
-}*/
+.caption2{
+  position:absolute;
+  width: 300px;
+  bottom: 80px;
+  right: 400px;
+  margin:2px;
+  background:rgb(197, 131, 162);
+  border:5px solid rgb(6, 133, 84);
+  padding:5px;
+}
 
   
-  figcaption1 {
+figcaption1 {
     position:absolute;
     margin:2px;
     background:rgb(175, 26, 96);
@@ -83,34 +103,3 @@ figcaption2 {
     padding:5px;
 }
 
-figure2 {
-  position: relative;
-  width: 200px;
-  }
-
-  figcaption3 {
-    position:absolute;
-    margin:2px;
-    background:rgb(175, 26, 96);
-    border:5px solid rgb(6, 133, 84);
-    top:-50px;
-    left:10px;
-    padding:5px;
-}
-
-figure3 {
-
-  position: relative;
-  width: 200px;
-  }
-
-  figcaption4 {
-    position:absolute;
-    margin:px;
-    background:rgb(175, 26, 96);
-    border:5px solid rgb(6, 133, 84);
-    top:-50px;
-    left:10px;
-    padding:5px;
-}
-img{max-width: 400px;}
