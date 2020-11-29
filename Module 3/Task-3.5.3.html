@@ -39,8 +39,8 @@ var arrShoppingCart=[
         ];
    
  
-        function itemPriceRange(arrCart,lowPrice,highPrice){
-            //testing that the objecty is correct
+        function itemPriceRange(arrCart,lowPrice,highPrice,quantity=false){
+            //testing that the object is correct
         console.log(arrCart);
         console.log(lowPrice);
         console.log(highPrice);
@@ -51,15 +51,26 @@ var arrShoppingCart=[
             //now set a variable for the current cart item
             currentItem = arrCart[i];
             console.log(currentItem);
-            if(currentItem.price>=lowPrice && currentItem.price<=highPrice){
+              //set variable for the item price to allow for manipulation, if required
+            itemPrice = currentItem.price;
+            //if quantity is true, this aaacount for the amopunft of items in the cart
+            if(quantity){
+                itemPrice = itemPrice * currentItem.quantity;
+            }
+            //compares the price of the item to given conditions
+            if(itemPrice>=lowPrice && itemPrice<=highPrice){
                 arrItems.push(currentItem);
             }
         }
         return arrItems;
 
         }
-        var arrPriceRangeItems = itemPriceRange(arrShoppingCart,1.99,5);
+        var arrPriceRangeItems = itemPriceRange(arrShoppingCart,1,4);
         console.log(arrPriceRangeItems);
+
+        var arrPriceRangeItems = itemPriceRange(arrShoppingCart,1,4,true);
+        console.log(arrPriceRangeItems);
+        
         
      
 </script>
