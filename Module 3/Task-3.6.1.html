@@ -43,9 +43,14 @@ var image = document.getElementById('changeMe');
         // console.log(paragraph);
         container.appendChild(paragraph);
 
+      /*function addEvetListener(eventType,whatToDo){
+          whatToDo();
+      }*/
 
-
+     image.addEventListener('mouseover',function(event){
+     console.log(event);
+     alert('Hovered Over Image');
+     });
     </script>
 </body>
 </html>
-
