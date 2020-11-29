@@ -1,0 +1,50 @@
+!<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/task-3.1.css" />
+    <title>Javascript 3.6.1</title>
+</head>
+<body>
+    <header>
+        <h1>Javascript task 3.6.1</h1>
+    </header>
+    <main>
+
+        <div id="imageContainer">
+
+            <img id="changeMe" src="https://images.pexels.com/photos/1314550/pexels-photo-1314550.jpeg"/>
+    </div>
+
+    </main>
+
+    <aside>
+    </aside>
+
+<footer>
+    <p>&copy; 2020</p>
+</footer>
+
+<script>
+
+var image = document.getElementById('changeMe');
+var newSrc ='https://images.pexels.com/photos/2662434/pexels-photo-2662434.jpeg';
+image.src = newSrc;
+var container = document.getElementById('imageContainer').style.border = '5px dashed blue';
+
+
+var paragraph = document.createElement('p');
+        //<p></p>
+        paragraph.innerHTML = 'Hello LTU Class';
+        //<p>Hello LTU Class</p>
+        paragraph.innerHTML = '<span style="color:red">Alex</span> is cool';
+        
+        // console.log(paragraph);
+        container.appendChild(paragraph);
+
+
+</script>
+</body>
+</html>
+
