@@ -20,8 +20,22 @@
     </main>
 
     <aside> 
-        <a id="CPS" href="https://www.cleevepark-tkat.org//">CPS Link</a>
-        <form>    
+        <a id="CPS" href="https://www.cleevepark-tkat.org//">CPS Link</a><br>
+        <form> 
+            <br>
+            <br>
+
+         
+            <input id="sevenTimesInput" name ="sevenTimesInput" />
+            <button id="submitCalculator" type="submit">Product</button>
+            <p id="sevenTimesValue"></p>
+        </form>
+    
+        <form>   
+            <input id="Dividing" name ="Dividing" />
+            <button id="submitCalculator" type="submit">Quotient</button>
+            <p id="Dividing"></p>
+        </form>
     </aside>
    
     <footer>
@@ -58,6 +72,54 @@ var image = document.getElementById('changeMe');
         link.addEventListener('click',function(event){
             event.preventDefault();
             console.log('preventDefault being used');
+        });
+
+    
+        /*var calculatorButton = document.getElementById('submitCalculator');
+        var sevenTimesValueOutput = document.getElementById('sevenTimesValue');
+        var calculatorInput = document.getElementById('sevenTimesInput');
+        calculatorButton.addEventListener('click',function(event){
+            event.preventDefault();
+            var inputValue = calculatorInput.value;
+            if(isNaN(inputValue) || !inputValue){
+                strMessage = 'Value entered is not a number';
+                sevenTimesValueOutput.innerHTML = strMessage;
+            } else {
+                var sum = inputValue * 7;
+                sevenTimesValueOutput.innerHTML = sum;
+            }
+        });*/
+        
+        
+
+
+
+
+        var calculatorButton = document.getElementById('submitCalculator');
+        var DividingOutput = document.getElementById('Dividing');
+        var calculatorInput = document.getElementById('Dividing');
+        calculatorButton.addEventListener('click',function(event){
+            event.preventDefault();
+            var inputValue = calculatorInput.value;
+            if(isNaN(inputValue) || !inputValue){
+                strMessage = 'Value entered is not a number';
+                DividingOutput.innerHTML = strMessage;
+            } else {
+                var sum = inputValue / 6;
+                DividingOutput.innerHTML = sum;
+            }
+        });
+
+        calculatorInput.addEventListener('blur',function(event){
+            event.preventDefault();
+            var inputValue = calculatorInput.value;
+            if(isNaN(inputValue) || !inputValue){
+                strMessage = 'Value entered is not a number';
+                sevenTimesValueOutput.innerHTML = strMessage;
+            } else {
+                var sum = inputValue * 7;
+                sevenTimesValueOutput.innerHTML = sum;
+            }
         });
     </script>
 </body>
