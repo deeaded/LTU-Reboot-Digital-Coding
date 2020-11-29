@@ -102,9 +102,10 @@ img{
     background:rgb(226, 113, 166);
     border:5px solid rgb(6, 133, 84);
     padding:5px;
+}
 
 
-figcaption1 {
+.figcaption1{
     position:absolute;
     margin:2px;
     background:rgb(226, 113, 166);
@@ -114,7 +115,7 @@ figcaption1 {
     padding:5px;
 }
 
-figcaption2 {
+.figcaption2 {
     position:absolute;
     margin:2px;
     background:rgb(226, 113, 166);
