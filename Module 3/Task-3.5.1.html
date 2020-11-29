@@ -37,16 +37,31 @@ var objShoppingCart=[
             {name:"onions",type:"food",quantity:3,price:.4}
         ];
     
-    function getFullPrice(objCart){
+    function getFullPrice(arrCart){
         //testing that th eobjecty is correct
-        console.log(objCart);
+        console.log(arrCart);
+
         // create a full price variable
-        var getFullPrice;
+        var FullPrice = 0;
+
         //looping through every item in the cart
-            for(i = 0, 1<objShoppingCart < 1, i++)
+            var currentItem;
+            var currentItemTotal;
+
+            for(let i = 0; i < arrCart.legth < 1; i++){
             //add the quantity * price of the object to full price
+               currentItem = arrCart[i]
+              
+               console.log(i);
+               console.log(currentItem);
+
+        
+
+
 
     }
+
+}
     
     getFullPrice(objShoppingCart);
     
