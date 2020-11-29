@@ -49,12 +49,15 @@ var objShoppingCart=[
             var currentItemTotal;
 
             for(let i=0; i < arrCart.length; i++){
-            //add the quantity * price of the object to full price
+            //set a variable to represent the current cart item
+           
                currentItem = arrCart[i];
               
                console.log(i);
                console.log(currentItem);
-
+             //add the quantity * price of the object to full price
+              currentItemTotal =currentItem.quantity * currentItem.price;
+              console.log(currentItemTotal);
         
     }
 
