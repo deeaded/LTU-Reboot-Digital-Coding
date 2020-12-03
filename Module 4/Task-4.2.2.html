@@ -36,6 +36,25 @@
                 hasRead:true,
             },
         ];
+
+        for(i = 0; i < arrBookList.length; i ++){
+            var objCurrentBook = arrBookList[i];
+
+            //THEN create a message to output that is {title} by {author}
+            var strMessage = objCurrentBook.title + ' by ' + objCurrentBook.author;
+
+            //IF the book has already been read
+            if(objCurrentBook.hasRead){
+                //THEN prepend the message with "You have read "
+                strMessage = "You have read " + strMessage;
+            } 
+            //ELSE
+            else {
+                //THEN prepend the message with "You need to read "
+                strMessage = "You need to read " + strMessage;
+            }
+            console.log(strMessage);
+        }
     </script>
 </body>
 </html>
